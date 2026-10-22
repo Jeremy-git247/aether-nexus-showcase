@@ -1,0 +1,26 @@
+# Public showcase: keep operational material outside this repository.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*oauth*.json
+*token*.json
+*.db
+*.sqlite*
+*.log
+*.jsonl
+*.zip
+*.7z
+data/
+backups/
+private/
+work/
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
